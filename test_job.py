@@ -47,5 +47,5 @@ def binary_search(arr: list, value: int) -> int:
 
 
 print(binary_search(arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], value=5))
-print(binary_search([random.randint(-10, 20) for _ in range(20)], 5))
-print(binary_search([random.randint(-10, 5) for _ in range(20)], 2))
+print(binary_search(sorted([random.randint(-10, 20) for _ in range(20)]), 5))
+print(binary_search(sorted([random.randint(-10, 5) for _ in range(20)]), 2))
